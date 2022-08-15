@@ -1,0 +1,31 @@
+.accordion {
+  background-color: #1f1f1f;
+  border-radius: 15px;
+}
+.accordion-header {
+  color: #e3e3e3;
+  font-size: 1.5rem;
+  overflow: hidden;
+  max-width: fit-content;
+}
+.accordion-body {
+  background-color: #121212;
+  border: solid 1px #1f1f1f;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.accordion-header-active {
+  color: #bb86fc;
+}
+.add-project{
+    background-color: #1f1f1f;
+    border-radius: 15px;
+}
+.add-project-input{
+    background-color: transparent;
+    color: #e3e3e3;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    min-width: 90% !important;
+}

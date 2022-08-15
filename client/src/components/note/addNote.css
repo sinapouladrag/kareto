@@ -1,0 +1,19 @@
+.add-note-box {
+  background-color: #1f1f1f;
+  color: #e3e3e3;
+  border-radius: 15px;
+  padding: 20px;
+  height: 40vh !important;
+}
+textarea {
+  background-color: transparent !important;
+  border: none !important;
+  color: #e3e3e3 !important;
+  resize: none;
+}
+textarea:focus {
+  box-shadow: none !important;
+}
+.plus-icon{
+  cursor: pointer;
+}

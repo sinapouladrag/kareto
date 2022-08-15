@@ -1,0 +1,15 @@
+.tasks-title {
+  color: #e3e3e3;
+  font-weight: 600;
+}
+.title-component {
+  color: #e3e3e3;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.active-title{
+    color: #BB86FC;
+    font-size: 1.8rem;
+}

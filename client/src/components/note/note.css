@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.note {
+  background-color: #1f1f1f;
+  color: #e3e3e3;
+  border-radius: 15px;
+  padding: 20px;
+  height: 40vh !important;
+}
+.delete-icon {
+  cursor: pointer;
+}
+.note-top{
+  text-justify: auto;
+  word-wrap: break-word;
+}

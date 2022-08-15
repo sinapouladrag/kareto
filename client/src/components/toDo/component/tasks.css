@@ -1,0 +1,59 @@
+.tasks {
+  margin: 15px 0;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+  height: 50px;
+}
+.show-details {
+  height: 80px;
+}
+.show-date {
+  margin: 0 auto 0 5px !important;
+}
+.top-of-task {
+  height: 50px;
+}
+.bottom-of-task {
+  height: 10px;
+  color: #e3e3e3;
+  font-size: 0.8rem;
+}
+.task-text {
+  color: #e3e3e3;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: context-menu;
+  width: 80% !important;
+}
+.task-text-need {
+  /* max-width: fit-content !important;
+  min-width: fit-content !important;
+  position: relative; */
+  width: 100% !important;
+}
+.task-text-detail {
+  font-size: 0.8rem;
+  color: #b6b6b6;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: context-menu;
+  width: 80% !important;
+}
+.tik-box {
+  background-color: #1f1f1f;
+  min-width: 1.3rem;
+  min-height: 1.3rem;
+  border: 2px solid #bb86fc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleted-icon {
+  cursor: pointer;
+}
+.active-start {
+  border: solid 1px #bb86fc;
+}

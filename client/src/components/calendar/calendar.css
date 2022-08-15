@@ -1,0 +1,85 @@
+.events-title {
+  color: #e3e3e3;
+  font-weight: 700;
+}
+.events {
+  color: #e3e3e3;
+}
+.events:hover {
+  font-weight: 700;
+}
+.responsive-calendar {
+  background-color: #1f1f1f;
+  font-size: 0.7rem;
+  z-index: 1 !important;
+}
+.Calendar__day {
+  color: #e3e3e3;
+}
+.-today,
+.holiday,
+.-weekend,
+.Calendar__monthSelectorItemText,
+.Calendar__yearSelectorText {
+  color: #bb86fc !important;
+}
+.-today::after {
+  background: #bb86fc !important;
+}
+.Calendar__weekDay,
+.Calendar__yearText,
+.Calendar__monthText,
+.Calendar__monthArrowWrapper,
+.-right,
+.-left {
+  color: #e3e3e3 !important;
+}
+.Calendar__monthText::after,
+.Calendar__yearText:hover {
+  background-color: #bb86fc !important;
+}
+.Calendar__monthSelector {
+  background-color: #1f1f1f !important;
+  color: #bb86fc !important;
+}
+.Calendar__monthSelectorItem.-active .Calendar__monthSelectorItemText,
+.Calendar__yearSelectorItem.-active .Calendar__yearSelectorText {
+  color: #bb86fc !important;
+  background-color: #1f1f1f !important;
+  border: solid 1px #bb86fc;
+}
+.Calendar__monthYear > *.-activeBackground {
+  background: #bb86fc !important;
+}
+.Calendar__yearSelector {
+  background-color: #1f1f1f !important;
+}
+.Calendar__yearSelectorWrapper::after {
+  background-image: linear-gradient(
+    to bottom,
+    #1f1f1f,
+    #000000 10%,
+    rgba(245, 245, 245, 0)
+  );
+}
+.Calendar__yearSelectorWrapper::before {
+  background-image: none;
+}
+.Calendar__day.-selected,
+.Calendar__day.-selectedStart,
+.Calendar__day.-selectedEnd {
+  background: #bb86fc;
+  color: #e3e3e3 !important;
+  outline: none !important;
+}
+
+@media (max-width: 768px) {
+  .responsive-calendar {
+    font-size: 0.5rem !important;
+  }
+}
+@media (max-width: 360px) {
+  .responsive-calendar {
+    font-size: 0.4rem !important;
+  }
+}
